@@ -1,4 +1,4 @@
-#PLOTS 
+# PLOTS 
 
 The following are the Pareto-Front plots obtained for :
 * Small Sample Data :
