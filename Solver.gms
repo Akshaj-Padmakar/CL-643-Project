@@ -64,7 +64,7 @@ b(k,l)
 sl
 tc;
 /*Here,
-        a(i, j, k) = kth truck is parked at the (i,j)th parking lot.
+        a(i, j, k) = kth truck is parked at the (i,j)th block in the parking lot.
         
         b(k, l) = k-th truck is assigned to l-th truck destination.
 
