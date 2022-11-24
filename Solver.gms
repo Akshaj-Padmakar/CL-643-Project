@@ -87,7 +87,7 @@ block_and_destination(k)
 block_size(i,j);
 
 
-load(i,l).. sum(k,c(k)b(k,l))-sum(k,c(k)*b(k,l)(sum(j,a(i,j,k))))=g=sl;
+load(i,l).. sum(k,c(k)*b(k,l))-sum(k,c(k)*b(k,l)*(sum(j,a(i,j,k))))=g=sl;
 
 cost(l).. sum(k,(dist(l)/mil(k))*b(k,l))=l=tc;
 
@@ -119,7 +119,7 @@ Set counter / c1*c41 /;
 
 Scalar E;
 
-Parameter report(counter,), ranges();
+Parameter report(counter,*), ranges(*);
 
 
 /* finding maximum(worst) value of TC by maximizing SL without any additional constraints*/
