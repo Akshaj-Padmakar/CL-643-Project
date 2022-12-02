@@ -45,7 +45,19 @@ A = [
 ];
 
 
-plot(A(:,1),A(:,2),"-");
+
+plot(A(:,1),A(:,2),"-",'linewidth', 3);
 hold on;
-plot(B(:,1),B(:,2),"*");
+plot(B(:,1),B(:,2),"*",'linewidth', 4);
 hold off;
+
+xlabel("sl","FontSize",33);
+ylabel("tc","FontSize",33);
+legend("1st Pareto Front", "Other-Solutions", 'fontsize', 20);
+
+for K = 1 : size(A)
+  thisX = A(K,1)
+  thisY = A(K,2)
+  labelstr = sprintf('  (%.2f,%.2f)', thisX, thisY);
+%   text(thisX, thisY, labelstr,'FontSize', 10);
+end
