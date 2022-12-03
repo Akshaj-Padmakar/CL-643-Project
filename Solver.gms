@@ -46,7 +46,7 @@ mil(k)
 dist(l)
 /   1 50
     2 100/;
-/*dist(l) is the distance l-th truck.*/
+/*dist(l) is the distance  to the l-th destination.*/
     
 Scalar
 MaxCost /84.16667/;
