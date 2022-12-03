@@ -7,5 +7,5 @@
 * Contributors : 
   - Akshaj Padmakar 
   - Saksham Kumar
-  - Smart Hegde.
+  - Samarth Hegde.
 
